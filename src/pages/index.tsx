@@ -29,15 +29,15 @@ export default function Home() {
         background: "linear-gradient(rgba(4, 9, 30, 0.425),rgba(4, 9, 30, 0.192))"
       }} className="header">
         <nav>
-            <a href="/"> <Image src="/gg-removebg-preview.png" width={100} height={100} alt=""/> </a>
+            <Link href="/"> <Image src="/gg-removebg-preview.png" width={100} height={100} alt=""/> </Link>
             <div className="nav-links" id="navLinks">
                 <i className="fa fa-times-circle" ></i>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Contact Us</a></li>
-                    <li><a href="">LOG IN</a></li>
+                    <li><Link href="/">Home</Link></li>
+                    <li><Link href="/">Services</Link></li>
+                    <li><Link href="/">About Us</Link></li>
+                    <li><Link href="/">Contact Us</Link></li>
+                    <li><Link href="/">LOG IN</Link></li>
 
                 </ul>
             </div>
@@ -46,7 +46,7 @@ export default function Home() {
     <div className="text-box">
         <h1>Getting In Contact With Service Providers Was Never That Easy</h1>
         <p>Here you can choose the service that you are looking for ! <br/> Contact directly the Service Provider so that you can have a solution for the issue your stuck on it.</p>
-        <a href=""className="hero-btn">Visit Us To Know More</a>
+        <Link href="/"className="hero-btn">Visit Us To Know More</Link>
     </div>    
     </section>
     
