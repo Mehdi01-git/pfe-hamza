@@ -1,6 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 *{
     margin: 0;
     padding: 0;
@@ -9,10 +6,10 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    /* background-image: linear-gradient(rgba(4, 9, 30, 0.425),rgba(4, 9, 30, 0.192)), url("../../public/telecommuting.jpg");
+    background-image: linear-gradient(rgba(4, 9, 30, 0.425),rgba(4, 9, 30, 0.192)),url(img/telecommuting.jpg);
     background-position: center;
-    background-size:cover; */
-    /* position: relative; */
+    background-size:cover;
+    position: relative;
 } 
 nav{
     display: flex;
