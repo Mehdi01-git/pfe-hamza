@@ -11,26 +11,31 @@ const services = () => {
         {
             img: "/P2.jpg",
             name: "Hamza Louihrani",
+            title: "Web Devlopper",
             description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit voluptates optio libero ut voluptas ullam, repellat consectetur labore corporis voluptatum id nulla ipsum neque facilis, ipsa quas doloremque aspernatur corrupti."
         },
         {
             img: "/P2.jpg",
             name: "Hamza Louihrani",
+            title: "Web Devlopper",
             description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit voluptates optio libero ut voluptas ullam, repellat consectetur labore corporis voluptatum id nulla ipsum neque facilis, ipsa quas doloremque aspernatur corrupti."
         },
         {
             img: "/P2.jpg",
             name: "Hamza Louihrani",
-            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit voluptates optio libero ut voluptas ullam, repellat consectetur labore corporis voluptatum id nulla ipsum neque facilis, ipsa quas doloremque aspernatur corrupti."
-        },
-         {
-            img: "/P2.jpg",
-            name: "Hamza Louihrani",
+            title: "Web Devlopper",
             description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit voluptates optio libero ut voluptas ullam, repellat consectetur labore corporis voluptatum id nulla ipsum neque facilis, ipsa quas doloremque aspernatur corrupti."
         },
         {
             img: "/P2.jpg",
             name: "Hamza Louihrani",
+            title: "Web Devlopper",
+            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit voluptates optio libero ut voluptas ullam, repellat consectetur labore corporis voluptatum id nulla ipsum neque facilis, ipsa quas doloremque aspernatur corrupti."
+        },
+        {
+            img: "/P2.jpg",
+            name: "Hamza Louihrani",
+            title: "Web Devlopper",
             description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit voluptates optio libero ut voluptas ullam, repellat consectetur labore corporis voluptatum id nulla ipsum neque facilis, ipsa quas doloremque aspernatur corrupti."
         },
     ]
@@ -72,6 +77,8 @@ const services = () => {
         </div>
         <div className="card-content">
             <h2 className='name'>{item.name}</h2>
+            <h1>------------------------------------------</h1>
+            <h3 className='title'>{item.title}</h3>
             <p className="description">{item.description}</p>
 
             <button className="getincontactbtn">GET IN CONTACT</button>

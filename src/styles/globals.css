@@ -73,7 +73,7 @@ nav img{
 }
 .text-box p{
 margin: 10px 0 40px;
-font-size: 16px;
+font-size: 18px;
 color: #fff;
 }
 .hero-btn{
@@ -146,7 +146,7 @@ min-height: 100vh;
     width: 45vw;
     float: left ;
     border-radius: 30px;
-    border: 2px solid #fff;
+    border: 3px solid #fff;
     margin-left: 30px;
 
 }
@@ -156,7 +156,6 @@ font-size: 80px;
 text-align: left;
 margin-left: 30px;
 cursor: pointer;
-font-weight: 700;
 
 }
 .about-text{
@@ -167,6 +166,7 @@ font-weight: 700;
     /* font-size: 30px; */
     text-align: left;
     color: #fff;
+    font-size: 18px;
     margin: 40px;
     width: 500px;
     
@@ -187,7 +187,7 @@ font-weight: 700;
     width: 45vw;
     float: right ;
     border-radius: 30px;
-    border: 2px solid #fff;
+    border: 3px solid #fff;
     margin-left: 30px;
 
 }
@@ -196,9 +196,7 @@ color: #3500D3;
 font-size: 80px;
 text-align: left;
 margin-left: 30px;
-/* text-decoration: underline; */
 cursor: pointer;
-font-weight: 700;
 
 }
 .service-text{
@@ -206,9 +204,10 @@ font-weight: 700;
 
 }
 .service-text p {
-    /* font-size: 30px; */
+    font-size: 18px;
     text-align: left;
     color: #fff;
+
     margin: 40px;
     width: 500px;
     
@@ -273,14 +272,17 @@ padding: 20px 40px;
    }
    .postsTitle {
     display: flex;
-    padding-top: 100px;
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 40px;
+    padding: 0px 40px 100px 40px;
    }
    .postsTitle h1 {
-    font-size: 40px;
+    color: #3500D3;
+    font-size: 60px;
+    text-align: left;
+    margin-left: 30px;
+    cursor: pointer;
    }
    .slide-content{
     margin: 0 40px;
@@ -302,6 +304,13 @@ padding: 20px 40px;
     border: 4px solid #fff;
 }
 
+.card-content h3{
+    font-size: 19px;
+    color: #fff;
+    margin-top: 2px;
+    margin-bottom: 10px;
+
+}
 .image-content,
 .card-content{
     display: flex;
@@ -352,12 +361,13 @@ padding: 20px 40px;
     height: 100%;
     width: 100%;
     border-radius: 50%;
-    border: 4px solid #2d2e2d;
 }
 .name{
     font-size: 20px;
     font-weight: 500;
     color: white;
+    padding: 2px;
+    margin-top: 2px;
 }
 .description{
     font-size: 14px;
