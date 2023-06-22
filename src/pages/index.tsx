@@ -44,7 +44,7 @@ export default function Home() {
                   <i className="fa fa-bars"></i>
                   </nav>
               <div className="text-box">
-              <h1>Getiing in Contact With Service Providers <br /> Was Never That Easy !</h1>
+              <h1>Getting in Contact With Service Providers <br /> Was Never That Easy !</h1>
               <p>Here you can choose the service that you are looking for ! <br/> Contact directly the Service Provider so that you can have a solution for the issue your stuck on it.</p>
               <Link href="/"className="hero-btn">VISIT US TO KNOW MORE</Link>
 
@@ -56,7 +56,7 @@ export default function Home() {
       <div className="about"> 
         {<Image className="about-img" src={"/r22.jpg"} alt="cover" width={2000} height={500}/> }
             <div className="about-text">
-              <h1>About US</h1>
+              <h1>About Us</h1>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, ipsum laborum temporibus facere <br />consequatur fuga a aut aperiam dicta labore laudantium cupiditate dolorum ea explicabo delectus impedit ab aliquid odit.
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, ipsum laborum temporibus facere consequatur fuga a aut aperiam dicta labore laudantium cupiditate dolorum ea explicabo delectus impedit ab aliquid odit.</p>
               

@@ -5,7 +5,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .header{
     min-height: 100vh;
@@ -41,7 +41,6 @@ nav img{
     color: #ffffff;
     text-decoration: none;
     font-size: 17px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 600;
 }
 .nav-links::after{
@@ -60,7 +59,7 @@ nav img{
 }
 .text-box{
     width: 90%;
-    color: #3500D3;
+    color: #C2D938;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -69,6 +68,7 @@ nav img{
 }
 .text-box h1{
     font-size: 75px;
+    font-weight: 600;
 }
 .text-box p{
 margin: 10px 0 40px;
@@ -82,6 +82,7 @@ color: #fff;
     border: 2px solid #fff;
     padding: 12px 34px;
     font-size: 16px;
+    font-weight: 600;
     background: transparent ;
     position: relative;
     cursor: pointer;
@@ -89,8 +90,8 @@ color: #fff;
 }
 .hero-btn:hover{
     border: 2px solid #fff;
-    background: #240090;
-    color: #fff;
+    background: #C2D938;
+    color: #010001;
     transition: 0.3s;
 }
 
@@ -145,13 +146,13 @@ min-height: 100vh;
     width: 45vw;
     float: left ;
     border-radius: 30px;
-    border: 3px solid #fff;
     margin-left: 30px;
 
 }
 .about-text h1{
-color: #3500D3;
+color: #C2D938;
 font-size: 80px;
+font-weight: 600;
 text-align: left;
 margin-left: 30px;
 cursor: pointer;
@@ -186,13 +187,13 @@ cursor: pointer;
     width: 45vw;
     float: right ;
     border-radius: 30px;
-    border: 3px solid #fff;
     margin-left: 30px;
 
 }
 .service-text h1{
-color: #3500D3;
+color: #C2D938;
 font-size: 80px;
+font-weight: 600;
 text-align: left;
 margin-left: 30px;
 cursor: pointer;
@@ -217,7 +218,7 @@ cursor: pointer;
 justify-content: space-between;
 padding: 20px 40px;
     align-items: center;
-    background-color: #3500D3;
+    background-color: #7C7B7C;
 }
 .nav-barr ul li a{
     color: #ffffff;
@@ -242,14 +243,14 @@ padding: 20px 40px;
     text-decoration: none;
     border-radius: 30px;
     font-size: 20px;
+    font-weight: 600;
     position: relative;
     cursor: pointer;
     padding: 5px 25px;
 }
 .createbtn {
-    border: 2px solid #ffffff;
-    color: #fff;
-    background-color: #240090;
+    color: #010001;
+    background-color: #C2D938;
     transition: all ease 0.3s;
 
 } 
@@ -277,8 +278,9 @@ padding: 20px 40px;
     padding: 0px 40px 100px 40px;
    }
    .postsTitle h1 {
-    color: #3500D3;
+    color: #C2D938;
     font-size: 60px;
+    font-weight: 600;
     text-align: left;
     margin-left: 30px;
     cursor: pointer;
@@ -299,13 +301,13 @@ padding: 20px 40px;
 .card{
     width: 320px;
     border-radius: 30px;
-    background-color: #282828;
-    border: 4px solid #fff;
+    background-color: #464646;
 }
 
 .card-content h3{
-    font-size: 19px;
-    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    color: #C2D938;
     margin-top: 2px;
     margin-bottom: 10px;
 
@@ -328,7 +330,7 @@ padding: 20px 40px;
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: #3500D3;
+    background-color: #7C7B7C;
     border-radius: 25px 25px 0 25px;
 }
 .overlay::before,
@@ -339,11 +341,11 @@ padding: 20px 40px;
     bottom: -40px;
     height: 40px;
     width: 40px;
-    background-color: #3500D3;
+    background-color: #7C7B7C;
 }
 .overlay::after{
     border-radius: 0 25px 0 0;
-    background-color: #282828;
+    background-color: #464646;
     
 }
 .card-image{
@@ -351,7 +353,7 @@ padding: 20px 40px;
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    background-color:  #fff;
+    background-color:none;
     padding: 3px;
 }
 
@@ -377,6 +379,7 @@ padding: 20px 40px;
 .getincontactbtn{
     border: none;
     font-size: 16px;
+    font-weight: 600;
     color: rgb(96, 96, 96);
     padding: 8px 16px;
     background-color: white;
@@ -386,6 +389,6 @@ padding: 20px 40px;
     transition: all 0.3 ease;
 }
 .getincontactbtn:hover{
-    background-color: #240090;
-    color:#fff ;
+    background-color: #C2D938;
+    color:#010001 ;
 }

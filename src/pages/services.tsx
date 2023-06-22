@@ -77,7 +77,6 @@ const services = () => {
         </div>
         <div className="card-content">
             <h2 className='name'>{item.name}</h2>
-            <h1>------------------------------------------</h1>
             <h3 className='title'>{item.title}</h3>
             <p className="description">{item.description}</p>
 
