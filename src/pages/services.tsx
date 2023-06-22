@@ -14,42 +14,22 @@ const services = () => {
             description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit voluptates optio libero ut voluptas ullam, repellat consectetur labore corporis voluptatum id nulla ipsum neque facilis, ipsa quas doloremque aspernatur corrupti."
         },
         {
-            img: "/P1.jpg",
+            img: "/P2.jpg",
             name: "Hamza Louihrani",
             description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit voluptates optio libero ut voluptas ullam, repellat consectetur labore corporis voluptatum id nulla ipsum neque facilis, ipsa quas doloremque aspernatur corrupti."
         },
         {
-            img: "/P1.jpg",
+            img: "/P2.jpg",
+            name: "Hamza Louihrani",
+            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit voluptates optio libero ut voluptas ullam, repellat consectetur labore corporis voluptatum id nulla ipsum neque facilis, ipsa quas doloremque aspernatur corrupti."
+        },
+         {
+            img: "/P2.jpg",
             name: "Hamza Louihrani",
             description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit voluptates optio libero ut voluptas ullam, repellat consectetur labore corporis voluptatum id nulla ipsum neque facilis, ipsa quas doloremque aspernatur corrupti."
         },
         {
-            img: "/P1.jpg",
-            name: "Hamza Louihrani",
-            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit voluptates optio libero ut voluptas ullam, repellat consectetur labore corporis voluptatum id nulla ipsum neque facilis, ipsa quas doloremque aspernatur corrupti."
-        },
-        {
-            img: "/P1.jpg",
-            name: "Hamza Louihrani",
-            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit voluptates optio libero ut voluptas ullam, repellat consectetur labore corporis voluptatum id nulla ipsum neque facilis, ipsa quas doloremque aspernatur corrupti."
-        },
-        {
-            img: "/P1.jpg",
-            name: "Hamza Louihrani",
-            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit voluptates optio libero ut voluptas ullam, repellat consectetur labore corporis voluptatum id nulla ipsum neque facilis, ipsa quas doloremque aspernatur corrupti."
-        },
-        {
-            img: "/P1.jpg",
-            name: "Hamza Louihrani",
-            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit voluptates optio libero ut voluptas ullam, repellat consectetur labore corporis voluptatum id nulla ipsum neque facilis, ipsa quas doloremque aspernatur corrupti."
-        },
-        {
-            img: "/P1.jpg",
-            name: "Hamza Louihrani",
-            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit voluptates optio libero ut voluptas ullam, repellat consectetur labore corporis voluptatum id nulla ipsum neque facilis, ipsa quas doloremque aspernatur corrupti."
-        },
-        {
-            img: "/P1.jpg",
+            img: "/P2.jpg",
             name: "Hamza Louihrani",
             description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit voluptates optio libero ut voluptas ullam, repellat consectetur labore corporis voluptatum id nulla ipsum neque facilis, ipsa quas doloremque aspernatur corrupti."
         },
@@ -58,16 +38,28 @@ const services = () => {
     console.log("user", user)
   return (
     <div>
-
+            <title>Task.io</title>
         <Navbar />
 
         <div className="Post">
+        <div className="service"> 
+        {<Image className="service-img" src={"/S-2.jpg"} alt="cover" width={2000} height={500} /> }
+            <div className="service-text">
+              <h1>Services</h1>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, ipsum laborum temporibus facere <br />consequatur fuga a aut aperiam dicta labore laudantium cupiditate dolorum ea explicabo delectus impedit ab aliquid odit.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, ipsum laborum temporibus facere consequatur fuga a aut aperiam dicta labore laudantium cupiditate dolorum ea explicabo delectus impedit ab aliquid odit.</p>
+              
+            </div>
+         </div>
         <div className="postsTitle">
+           
             <h1>Available Services</h1>
             <button className='createbtn'>Create Service</button>
-
+            
         </div>
+        
             <div className='cardsGrid' >
+                
 {
     data.map((item, i) => {
         return  <div key={i} className="card">
