@@ -44,7 +44,7 @@ export default function Home() {
                   <i className="fa fa-bars"></i>
                   </nav>
               <div className="text-box">
-              <h1>Smooth Service Provider Outreach</h1>
+              <h1>Getiing in Contact With Service Providers <br /> Was Never That Easy !</h1>
               <p>Here you can choose the service that you are looking for ! <br/> Contact directly the Service Provider so that you can have a solution for the issue your stuck on it.</p>
               <Link href="/"className="hero-btn">VISIT US TO KNOW MORE</Link>
 
