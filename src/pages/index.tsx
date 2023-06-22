@@ -37,16 +37,16 @@ export default function Home() {
                           <Link href="/">Home</Link>
                           <Link href="/services">Services</Link>
                           <Link href="/">About Us</Link>
-                          <Link href="/">LOG IN</Link>
+                          <Link href="/"> LOG IN</Link>
 
                       
                   </div>
                   <i className="fa fa-bars"></i>
                   </nav>
               <div className="text-box">
-              <h1>Getting in Contact With Service Providers <br /> Was Never That Easy !</h1>
+              <h1>Get in Contact <br /> With Service Providers </h1>
               <p>Here you can choose the service that you are looking for ! <br/> Contact directly the Service Provider so that you can have a solution for the issue your stuck on it.</p>
-              <Link href="/"className="hero-btn">VISIT US TO KNOW MORE</Link>
+              <Link href="/"className="hero-btn">START NOW</Link>
 
               </div>    
               </section>

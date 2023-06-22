@@ -12,7 +12,7 @@ const services = () => {
             img: "/P2.jpg",
             name: "Hamza Louihrani",
             title: "Web Devlopper",
-            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit voluptates optio libero ut voluptas ullam, repellat consectetur labore corporis voluptatum id nulla ipsum neque facilis, ipsa quas doloremque aspernatur corrupti."
+            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit voluptates optio libero ut voluptas ullam."
         },
         {
             img: "/P2.jpg",
