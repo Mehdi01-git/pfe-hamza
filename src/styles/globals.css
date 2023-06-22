@@ -5,7 +5,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:'Oswald', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .header{
     min-height: 100vh;
@@ -41,22 +41,24 @@ nav img{
     color: #ffffff;
     text-decoration: none;
     font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
 }
 .nav-links ul li::after{
     content: '';
     width: 0%;
     height: 2px;
-    background: #f8d7b2;
+    background: #3500D3;
     display: block;
     margin: auto;
     transition: 0.5s;
 }
 .nav-links ul li:hover::after{
-    width: 100%;
+    width: 0%;
 }
 .text-box{
     width: 90%;
-    color: #f8d7b2;
+    color: #3500D3;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -64,8 +66,8 @@ nav img{
     text-align: center;
 }
 .text-box h1{
-    font-size: 55px;
-    font-weight: 600;
+    font-size: 75px;
+    font-weight: 500;
 }
 .text-box p{
 margin: 10px 0 40px;
@@ -76,19 +78,19 @@ color: #fff;
     display: inline-block;
     text-decoration: none;
     color: #fff6f6;
-    border: 2px solid #f8d7b2;
+    border: 2px solid #fff;
     padding: 12px 34px;
     font-size: 16px;
-    background: transparent;
+    background: transparent ;
     position: relative;
     cursor: pointer;
     border-radius: 30px;
 }
 .hero-btn:hover{
     border: 2px solid #fff;
-    background: #f8d7b2;
-    color: #2d2e2d;
-    transition: 1s;
+    background: #240090;
+    color: #fff;
+    transition: 0.3s;
 }
 
 nav .fa{
@@ -128,17 +130,17 @@ nav .fa{
 
                                              /*-----About us----*/
 .about-img{
-    min-height: 100vh;
+    min-height: 70vh;
     display: flex;
-    width: 35vw;
+    width: 45vw;
     float: left ;
     border-radius: 30px;
+    border: 2px solid #fff;
     margin-left: 30px;
-    box-shadow: black;
-    box-sizing: border-box;
+
 }
 .about-text h1{
-color: rgb(65, 65, 65);
+color: #3500D3;
 font-size: 80px;
 text-align: left;
 margin-left: 30px;
@@ -154,7 +156,7 @@ font-weight: 700;
 .about-text p {
     /* font-size: 30px; */
     text-align: left;
-    color: #5c5c5c;
+    color: #fff;
     margin: 40px;
     width: 500px;
     
@@ -165,7 +167,7 @@ font-weight: 700;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #cdcdcd;
+    background-color: rgba(00, 00, 00, 0.9);
     min-height: 100vh;
 }
                  /* Services NavBar */
@@ -174,7 +176,7 @@ font-weight: 700;
 justify-content: space-between;
 padding: 20px 40px;
     align-items: center;
-    background-color: #1778F2;
+    background-color: #3500D3;
 }
 .nav-barr ul li a{
     color: #ffffff;
@@ -198,16 +200,15 @@ padding: 20px 40px;
     display: inline-block;
     text-decoration: none;
     border-radius: 30px;
-    border: 2px solid #000;
     font-size: 20px;
     position: relative;
     cursor: pointer;
     padding: 5px 25px;
 }
 .createbtn {
-    border: 2px solid #1778F2;
+    border: 2px solid #ffffff;
     color: #fff;
-    background-color: #1778F2;
+    background-color: #240090;
     transition: all ease 0.3s;
 
 } 
@@ -253,7 +254,9 @@ padding: 20px 40px;
 .card{
     width: 320px;
     border-radius: 25px;
-    background-color: #828282;
+    background-color: #282828;
+    border: 3px solid #fff;
+
 }
 
 .image-content,
@@ -274,7 +277,7 @@ padding: 20px 40px;
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: #1778F2;
+    background-color: #3500D3;
     border-radius: 25px 25px 0 25px;
 }
 .overlay::before,
@@ -285,11 +288,12 @@ padding: 20px 40px;
     bottom: -40px;
     height: 40px;
     width: 40px;
-    background-color: #1778F2;
+    background-color: #3500D3;
 }
 .overlay::after{
     border-radius: 0 25px 0 0;
-    background-color: #828282;
+    background-color: #282828;
+    
 }
 .card-image{
     position: relative;
@@ -330,6 +334,6 @@ padding: 20px 40px;
     transition: all 0.3 ease;
 }
 .getincontactbtn:hover{
-    background-color: #1778F2;
+    background-color: #240090;
     color:#fff ;
 }

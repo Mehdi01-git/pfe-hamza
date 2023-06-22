@@ -6,7 +6,7 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div className='nav-barr'>
-         <Link href="/"> <Image src="/taskLogo.webp" width={100} height={100} alt=""/> </Link>
+         <Link href="/"> <Image src="/taskio2.png" width={100} height={100} alt=""/> </Link>
             <div className="nav-links" id="navLinks">
                <Link href="/">Home</Link>
                     <Link href="/services">Services</Link>

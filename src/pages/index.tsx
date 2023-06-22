@@ -23,24 +23,24 @@ export default function Home() {
                 objectFit: "cover",
                 backgroundPosition: "center",
 
-              }} src="/telecommuting.jpg" alt="cover" width={2000} height={500} />
+              }} src="/Bp1.jpg" alt="cover" width={2000} height={500} />
               <section style={{
                 position: "absolute",
               top: "0",
               background: "linear-gradient(rgba(4, 9, 30, 0.425),rgba(4, 9, 30, 0.192))"
                 }} className="header">
                 <nav>
-                  <Link href="/"> <Image src="/gg-removebg-preview.png" width={100} height={100} alt=""/> </Link>
+                <Link href="/"> <Image src="/taskio2.png" width={100} height={100} alt=""/> </Link>
                   <div className="nav-links" id="navLinks">
                       <i className="fa fa-times-circle" ></i>
-                      <ul>
-                          <li><Link href="/">Home</Link></li>
-                          <li><Link href="/services">Services</Link></li>
-                          <li><Link href="/">About Us</Link></li>
-                          <li><Link href="/services">Manage Your Services</Link></li>
-                          <li><Link href="/">LOG IN</Link></li>
+                    
+                          <Link href="/">Home</Link>
+                          <Link href="/services">Services</Link>
+                          <Link href="/">About Us</Link>
+                          <Link href="/services">Manage Your Services</Link>
+                          <Link href="/">LOG IN</Link>
 
-                      </ul>
+                      
                   </div>
                   <i className="fa fa-bars"></i>
                   </nav>
@@ -55,7 +55,7 @@ export default function Home() {
             </div>
               {/* -------About US----- */}
       <div className="about"> 
-        {<Image className="about-img" src={"/working-from-distance-men.jpg"} alt="cover" width={2000} height={500}/> }
+        {<Image className="about-img" src={"/r22.jpg"} alt="cover" width={2000} height={500}/> }
             <div className="about-text">
               <h1>About US</h1>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, ipsum laborum temporibus facere <br />consequatur fuga a aut aperiam dicta labore laudantium cupiditate dolorum ea explicabo delectus impedit ab aliquid odit.
