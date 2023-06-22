@@ -15,7 +15,22 @@
     background-size:cover; */
     /* position: relative; */
 } 
-
+.log-in{
+    display: inline-block;
+    text-decoration: none;
+    color: #010001;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    background: #fff;
+    position: relative;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.log-in:hover{
+    background-color: #C2D938;
+    color:#010001 ;
+}
 nav{
     display: flex;
     padding: 2% 6%;

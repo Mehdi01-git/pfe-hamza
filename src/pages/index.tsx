@@ -37,7 +37,7 @@ export default function Home() {
                           <Link href="/">Home</Link>
                           <Link href="/services">Services</Link>
                           <Link href="/">About Us</Link>
-                          <Link href="/"> LOG IN</Link>
+                          <button className="log-in">Log In</button>
 
                       
                   </div>
