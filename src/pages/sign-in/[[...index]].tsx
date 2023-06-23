@@ -9,7 +9,7 @@ export default function Page() {
         <meta name="description" content="Login to PFE hamza" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <SignIn />
+      <SignIn afterSignInUrl="/services" redirectUrl="/services" />
     </div>
   );
 }

@@ -14,18 +14,20 @@ datasource db {
 
 model User {
     id        String   @id 
-    fullName String?
-    imageUrl String?
-    emailAddress String?
+    fullName String
+    imageUrl String
+    emailAddress String
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
+    posts Posts[]
 }
 model Posts {
   id  String @id @default(cuid())
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
-  name String?
   title String?
   desc String?
+  userId String
+  User User @relation(fields: [userId], references: [id])
 
 }
