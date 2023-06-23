@@ -122,18 +122,11 @@ const Services = () => {
                         userId: user.id,
                       });
                   await refetchPosts();
-                  if (posted) {
-                    setShow({
-                      modal: false,
-                      id: null,
-                    });
-                  }
-                  if (postedEdit) {
-                    setShow({
-                      modal: false,
-                      id: null,
-                    });
-                  }
+
+                  setShow({
+                    modal: false,
+                    id: null,
+                  });
 
                   actions.setSubmitting(false);
                 }}
@@ -250,6 +243,7 @@ const Services = () => {
                           }
                           style={{
                             color: "white",
+                            cursor: "pointer",
                           }}
                         >
                           <svg
