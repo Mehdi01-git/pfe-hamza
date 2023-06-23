@@ -15,6 +15,18 @@ const config = {
         port: "",
         pathname: "/oauth_google/**",
       },
+      {
+        protocol: "https",
+        hostname: "images.clerk.dev",
+        port: "",
+        pathname: "/uploaded/**",
+      },
+      {
+        protocol: "https",
+        hostname: "lh3.googleusercontent.com",
+        port: "",
+        pathname: "/a/**",
+      },
     ],
   },
   /**

@@ -147,7 +147,7 @@ const Services = () => {
                         <Form.Text className="text-muted">
                           Give your service a title.
                         </Form.Text>
-                      </Form.Group>
+                      </Form.Group> 
 
                       <Form.Group className="mb-3">
                         <Form.Label>Service Description</Form.Label>
@@ -190,7 +190,7 @@ const Services = () => {
 
                   <div className="card-image">
                     <Image
-                      src={item.User.imageUrl ? item.User.imageUrl : "/P2.jpg"}
+                      src={item.User.imageUrl}
                       alt=""
                       width={150}
                       height={150}
@@ -253,9 +253,9 @@ const Services = () => {
                             viewBox="0 0 24 24"
                             fill="none"
                             stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                             className="lucide lucide-edit"
                           >
                             <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
